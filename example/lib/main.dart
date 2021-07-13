@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:easy_animated_tabbar/easy_animated_tabbar.dart';
 import 'package:flutter/material.dart';
 
