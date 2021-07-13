@@ -3,7 +3,27 @@
 Maybe you want use a tabbar without any additional page so this package help you to make your tabbar.
 
 ## Getting Started
-
+## You can use it simply way as : 
+```
+EasyAnimatedTab(
+            buttonTitles: ['button1','button2'],
+            onSelected: (index) {},
+          ),
+```
+## Or add adittional options for custome it:
+```
+EasyAnimatedTab(
+            buttonTitles: buttons,
+            onSelected: (index) {},
+            animationDuration: 500,
+            minWidthOfItem: 70,
+            minHeightOfItem: 40,
+            deActiveItemColor: Colors.grey,
+            activeItemColor: Colors.redAccent,
+            activeTextStyle: TextStyle(color: Colors.white, fontSize: 14),
+            deActiveTextStyle: TextStyle(color: Colors.redAccent, fontSize: 14),
+          ),
+```
 ## This package has below options:
 * List<String> buttonTitles : the titles list that show
 * void Function(int) onSelected : that return selected index
