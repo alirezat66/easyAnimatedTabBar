@@ -1,6 +1,9 @@
 # easy_animated_tabbar
 
 Maybe you want use a tabbar without any additional page so this package help you to make your tabbar.
+In additional some tiems you want create a selectable button list.
+
+![](screenshots/easyanimatedtab.gif)
 
 ## Getting Started
 ## You can use it simply way as : 

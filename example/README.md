@@ -20,3 +20,5 @@ TextStyle deActiveTextStyle: style of de activated item's text
 double activeBorderRadius : border radius of active item
 double deActiveBorderRadius : border radius of de active item
 
+
+
