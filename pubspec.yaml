@@ -1,7 +1,8 @@
 name: easy_animated_tabbar
-description: A new Flutter package.
+description: A Flutter package for simply making a list of selectable objects with custom shapes.
 version: 0.0.1
-homepage:
+author: alirezataghizadeh66@gmail.com
+homepage: https://github.com/alirezat66/easyAnimatedTabBar
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
