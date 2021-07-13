@@ -45,6 +45,7 @@ class _EasyAnimatedTabState extends State<EasyAnimatedTab> {
 
   @override
   void initState() {
+    _selectedIndex = widget.selectedIndex;
     super.initState();
   }
 
