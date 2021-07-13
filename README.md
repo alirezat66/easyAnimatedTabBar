@@ -1,7 +1,7 @@
 # easy_animated_tabbar
 [![pub package](https://img.shields.io/pub/v/rounded_loading_button.svg)](https://pub.dev/packages/easy_animated_tabbar)
-![build](https://github.com/alirezat66/easyAnimatedTabBar/workflows/build/badge.svg)
 [![style: effective dart](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://pub.dev/packages/effective_dart)
+
 Maybe you want use a tabbar without any additional page so this package help you to make your tabbar.
 In additional some tiems you want create a selectable button list.
 
