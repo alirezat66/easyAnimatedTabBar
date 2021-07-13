@@ -31,6 +31,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   List<String> buttons = ['button1', 'button2', 'button3'];
+  List<String> buttons2 = ['all', 'personal', 'groups', 'social', 'educations'];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -70,6 +71,22 @@ class _MyHomePageState extends State<MyHomePage> {
             deActiveBorderRadius: 16,
             activeTextStyle: TextStyle(color: Colors.white, fontSize: 14),
             deActiveTextStyle: TextStyle(color: Colors.redAccent, fontSize: 14),
+          ),
+          SizedBox(
+            height: 16,
+          ),
+          EasyAnimatedTab(
+            buttonTitles: buttons2,
+            onSelected: (index) {},
+            animationDuration: 800,
+            minWidthOfItem: 70,
+            minHeightOfItem: 40,
+            deActiveItemColor: Colors.grey.withOpacity(0.3),
+            activeItemColor: Colors.green,
+            activeBorderRadius: 0,
+            deActiveBorderRadius: 0,
+            activeTextStyle: TextStyle(color: Colors.white, fontSize: 14),
+            deActiveTextStyle: TextStyle(color: Colors.black, fontSize: 14),
           ),
         ],
       ),
